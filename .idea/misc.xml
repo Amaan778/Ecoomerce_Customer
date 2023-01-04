@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/cart.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/cudtombtn.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/custom_circle.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/custombtnback.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/indicator.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/line.xml" value="0.227" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/drawable/selected.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/activity_checkout.xml" value="0.14719945355191258" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/activity_fragments.xml" value="0.16799999999999998" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/activity_main.xml" value="0.19519927536231885" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/activity_onboarding.xml" value="0.19519927536231885" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/activity_product_details.xml" value="0.15067567567567566" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/activity_register_user.xml" value="0.21822916666666667" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/activity_sign_user.xml" value="0.19519927536231885" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/boarding_screen.xml" value="0.19519927536231885" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/cart.xml" value="0.15067567567567566" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/cart_layout.xml" value="0.14719945355191258" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/fragment_cart.xml" value="0.12" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/fragment_home.xml" value="0.15067567567567566" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/fragment_product_detail1.xml" value="0.14719945355191258" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/fragment_setting.xml" value="0.19519927536231885" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/layout/homerecyclerlayout.xml" value="0.16" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/menu/bottom.xml" value="0.23229166666666667" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/menu/bottomnav.xml" value="0.1905982905982906" />
+        <entry key="..\:/AndroidStudioProjects/EccomerceAppCustomer/app/src/main/res/menu/cart.xml" value="0.15067567567567566" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

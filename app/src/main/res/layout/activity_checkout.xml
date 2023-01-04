@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Checkout">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:enabled="false"
+        android:id="@+id/name"
+        android:textSize="@dimen/_20sdp"
+        android:layout_margin="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your number"
+        android:enabled="false"
+        android:id="@+id/number"
+        android:textSize="@dimen/_20sdp"
+        android:layout_margin="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Village"
+        android:id="@+id/village"
+        android:textSize="@dimen/_20sdp"
+        android:layout_margin="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:id="@+id/city"
+        android:textSize="@dimen/_20sdp"
+        android:layout_margin="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:id="@+id/state"
+        android:textSize="@dimen/_20sdp"
+        android:layout_margin="@dimen/_9sdp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pincode"
+        android:id="@+id/pincode"
+        android:textSize="@dimen/_20sdp"
+        android:layout_margin="@dimen/_9sdp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proceed To Checkout"
+        android:id="@+id/p_checkout"
+        android:textSize="@dimen/_15sdp"
+        android:layout_margin="@dimen/_9sdp"/>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/image_slider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_145sdp"
+                app:iss_auto_cycle="true"
+                android:layout_margin="@dimen/_9sdp"
+                app:iss_period="1000"
+                app:iss_delay="0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shop By Categories"
+                android:layout_margin="@dimen/_11sdp"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:src="@drawable/puma"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Puma"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:src="@drawable/wrogn"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="wrap_content"
+                        android:text="wrogn"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:src="@drawable/apple"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Apple"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:src="@drawable/dell"
+                        android:layout_margin="@dimen/_9sdp"
+                        android:scaleType="fitXY"/>
+
+
+                    <TextView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="wrap_content"
+                        android:text="Dell"
+                        android:textSize="@dimen/_15sdp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_9sdp"
+                android:id="@+id/recycler"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
